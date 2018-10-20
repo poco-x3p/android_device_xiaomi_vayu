@@ -165,6 +165,7 @@ on property:sys.boot_completed=1
 
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
+    write /proc/sys/vm/swappiness 100
 
     # Disable wsf, beacause we are using efk.
     # wsf Range : 1..1000 So set to bare minimum value 1.
