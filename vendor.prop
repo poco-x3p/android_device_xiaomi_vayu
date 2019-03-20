@@ -196,3 +196,7 @@ ro.surface_flinger.set_touch_timer_ms=750
 # WiFi
 wifi.aware.interface=wifi-aware0
 
+# ZRAM writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
