@@ -1,0 +1,16 @@
+//
+// Copyright (C) 2020 The LineageOS Project
+// Copyright (C) 2022 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+cc_library_static {
+    name: "libinit_vayu",
+    srcs: ["init_vayu.cpp"],
+    whole_static_libs: ["libbase"],
+    recovery_available: true,
+    include_dirs: [
+        "system/core/init"
+    ],
+    shared_libs: ["libbase"],
+}
