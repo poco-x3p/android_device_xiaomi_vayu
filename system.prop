@@ -17,6 +17,10 @@ ro.charger.enable_suspend=true
 # Netflix custom property
 ro.netflix.bsp_rev=Q855-16947-1
 
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true
+
 # Radio
 persist.radio.dynamic_sar=false
 persist.radio.NO_STAPA=1
