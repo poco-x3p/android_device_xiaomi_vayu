@@ -1,1 +1,6 @@
+# Thermal
 allow system_app sysfs_thermal:file rw_file_perms;
+
+# Battery health
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file { read open getattr };
