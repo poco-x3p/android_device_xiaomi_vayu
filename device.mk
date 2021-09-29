@@ -49,6 +49,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service
+
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
