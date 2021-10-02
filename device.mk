@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
 
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
     bt \
     display \
     init \
