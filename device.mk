@@ -163,6 +163,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     init \
     media-legacy \
     overlay \
+    perf \
     telephony \
     usb \
     vibrator \
