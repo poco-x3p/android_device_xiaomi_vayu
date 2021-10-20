@@ -182,6 +182,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     usb \
     vibrator \
+    wfd \
     wlan
 
 # Sensors
