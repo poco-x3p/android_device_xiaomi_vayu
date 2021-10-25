@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/security/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.vayu
+
 # Overlays
 PRODUCT_PACKAGES += \
     VayuFrameworks
