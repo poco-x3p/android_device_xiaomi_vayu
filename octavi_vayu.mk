@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit some common Octavi OS stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# GAPPS
+TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
+
 PRODUCT_NAME := octavi_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
