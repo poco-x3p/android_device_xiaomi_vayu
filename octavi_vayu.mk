@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit some common Octavi OS stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # GAPPS
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
