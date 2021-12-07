@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit some common Awaken stuff.
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := awaken_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
