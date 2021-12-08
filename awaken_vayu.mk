@@ -24,6 +24,9 @@ USE_GAPPS := true
 # Google Recorder
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# Google Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 PRODUCT_NAME := awaken_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
