@@ -13,6 +13,9 @@ persist.vendor.cne.feature=1
 # Octavi Maintainer
 ro.octavi.maintainer=raghavt20
 
+# OTA prop
+ro.octavi.display.pid=1546691
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q855-16947-1
 
