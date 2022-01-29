@@ -113,6 +113,7 @@ PRODUCT_PACKAGES += \
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
+    display \
     init \
     overlay \
     telephony
