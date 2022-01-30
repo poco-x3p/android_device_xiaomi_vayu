@@ -124,6 +124,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     overlay \
     telephony \
     usb \
+    vibrator \
     wlan
 
 # Sensors
