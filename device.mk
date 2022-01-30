@@ -56,7 +56,8 @@ PRODUCT_PACKAGES += \
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
-    overlay
+    overlay \
+    telephony
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
