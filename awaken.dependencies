@@ -4,13 +4,13 @@
     "remote": "github",
     "repository": "poco-x3p/android_vendor_xiaomi_vayu",
     "target_path": "vendor/xiaomi/vayu",
-    "branch": "12"
+    "branch": "12.1"
   },
   {
     "remote": "github",
     "repository": "raghavt20/kernel_sm8150",
     "target_path": "kernel/xiaomi/sm8150",
-    "branch": "12"
+    "branch": "12.1"
   },
   {
     "remote": "github",
