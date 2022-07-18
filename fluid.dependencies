@@ -29,5 +29,11 @@
     "repository": "poco-x3p/android_hardware_qcom_media",
     "target_path": "hardware/qcom-caf/sm8150/media",
     "branch": "12-caf-sm8150"
+  },
+  {
+    "remote": "github",
+    "repository": "poco-x3p/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-19.1"
   }
 ]

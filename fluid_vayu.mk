@@ -11,29 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit some common Awaken stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common Fluid stuff.
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # GApps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# Google Assistant
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_INCLUDE_GAPPS := true
 
 # Official
-AWAKEN_BUILD_TYPE := OFFICIAL
+FLUID_BUILD_TYPE := UNOFFICIAL
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.fluid.maintainer=raghavt20 \
+    ro.fluid.cpu=SD855
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-PRODUCT_NAME := awaken_vayu
+PRODUCT_NAME := fluid_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3 Pro

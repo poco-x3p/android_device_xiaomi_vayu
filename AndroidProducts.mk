@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_vayu.mk
+    $(LOCAL_DIR)/fluid_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_vayu-user \
-    awaken_vayu-userdebug \
-    awaken_vayu-eng
+    fluid_vayu-user \
+    fluid_vayu-userdebug \
+    fluid_vayu-eng
