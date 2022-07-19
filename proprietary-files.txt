@@ -329,11 +329,6 @@ vendor/etc/camera/visidon_clearshot_params_algoup.xml
 # Camera Configs - from POCO X3 Pro MIUI V12.0.6.0 RJUMIXM
 vendor/etc/camera/sr_params.xml|f83901324b80bc1e1af2751e1bb4d95b01977f6e
 
-# Camera-Megvii - from POCO X3 Pro MIUI V12.5.7.0 RJUMIXM
-vendor/etc/camera/megviifacepp_0_5_2_model|1f0cdc706d3853114ecf7a2c0c7436238fcdf258
-vendor/lib64/libmegface.so|e32055dc224076c8a7e8486292341c4604a12787
-vendor/lib64/libMegviiFacepp-0.5.2.so|4dce8e04d919df9434d2444c7687328018a6e34f
-
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
 
